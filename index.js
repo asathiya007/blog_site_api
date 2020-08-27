@@ -24,10 +24,6 @@ const connectDB = async () => {
 }
 connectDB();
 
-app.get('/test', (req, res) => {
-    res.json("Hello world!");
-});
-
 app.get('/posts', async (req, res) => {
     const posts = await Post.find(); 
     res.json(posts.reverse());
