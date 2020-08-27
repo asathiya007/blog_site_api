@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/asathiya007/blog_site_api#readme",
   "dependencies": {
-    "dotenv": "^8.2.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.10.1"
   }
