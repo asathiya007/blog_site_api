@@ -28,6 +28,11 @@ app.get('/test', (req, res) => {
     res.json("Hello world!");
 });
 
+app.get('/posts', async (req, res) => {
+    const posts = await Post.find(); 
+    res.json(posts.reverse());
+}); 
+
 app.post('/posts', async (req, res) => {
     const payload = req.body; 
     let post = null; 
