@@ -1,0 +1,22 @@
+{
+  "name": "blog_site_api",
+  "version": "1.0.0",
+  "description": "The back end API for HackGTeeny 2020 Blog Site app ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asathiya007/blog_site_api.git"
+  },
+  "author": "HackGT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asathiya007/blog_site_api/issues"
+  },
+  "homepage": "https://github.com/asathiya007/blog_site_api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
